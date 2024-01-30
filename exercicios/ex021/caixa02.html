@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-image: linear-gradient( to top, #024959af,#593e2591) ;
+            margin: 5px;
+            height: 1000px;
+        }
+        header > h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 900;
+            text-align: center;
+            border-style: dotted;
+        }
+        header{
+            background-color: rgba(255, 228, 196, 0.363);
+            border-radius: 20px;
+            padding: 5px;
+            margin-right: 20px;
+            margin-bottom: 0px;
+        }
+        nav{
+            padding-left: 10px;
+            background-color: grey;
+            
+            font-weight: 600;
+            box-shadow: 3px 3px 14px rgb(0, 0, 0); /* desloc. horizontal, desloc. vertical, espalhamento e cor */
+        }
+        nav>a{
+            text-decoration: none;
+            color: white;
+            margin-right:  30px;
+        }
+        nav>a:hover{
+            width: 100px;
+            background-color: rgba(94, 255, 0, 0.493);
+            text-decoration: underline;
+            
+            
+        }
+        main>section#notícias{
+            background-color: rgba(12, 191, 214, 0.295);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           
+        }
+        article>aside{
+            padding: 1px;
+            background-color: rgb(80, 77, 77);
+        }
+        main{
+            margin-top: 0px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nisi recusandae necessitatibus explicabo aut tenetur quibusdam dolores iusto fuga iste aperiam, excepturi quidem obcaecati, voluptates suscipit doloremque, ipsam voluptatum laudantium.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>

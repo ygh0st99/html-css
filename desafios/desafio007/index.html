@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio07</title>
+</head>
+<body>
+    <h1>Desafio da imagem adaptativa</h1>
+    <p>Vamos adicionar uma imagem que se adapte a sua resolução</p>
+
+     <picture> <!-- TAG PICTURE-->
+             <source media="(max-width: 750px )" srcset="foto-p.png" type="image/png">
+             <source media="(max-width: 1050px )" srcset="foto-m.png" type="image/png">
+             <img src="foto-g.png" alt="foto G">
+     </picture>
+
+</body>
+</html>

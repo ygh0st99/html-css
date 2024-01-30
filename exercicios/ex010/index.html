@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    <h1>Links</h1>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://www.youtube.com/channel/UC-TNqoCico64eULLDIYNXRQ " >canal no youtube</a> (sem as tags target e rel) </p>
+    <!--tag target com o argumento _blank: abrir o link em outra aba -->
+    
+    <!--tag rel : define o relacionamento entre o arquivo em que o comando está escrito e o arquivo que é definido no caminho do href-->
+    
+    <p>voce pode acessar o meu canal do youtube<a href="https://www.youtube.com/channel/UC-TNqoCico64eULLDIYNXRQ" target="_blank" rel="external"> clicando aqui</a> (com as tags target e rel)</p>
+
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a <a href="pag002.html" rel="next">segunda página</a></p>
+    <!-- argumentos da tag rel: external, next, prev-->
+
+    <p>Você também pode acessar a nossa <a href="notícias/pag003.html" target="_self">página de notícias</a></p>
+    <!--tag target com argumento self: para abrir o link na própria página-->
+
+    <h1>Links para Donwload</h1>
+    <ul>
+        <li><a href="pdf para download/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Instalar o livro em PDF</a></li>
+        <!--Instalar o arquivo no formato pdf -->
+
+        <li><a href="pdf para download/meulivro.zip" download="meulivro.zip" type="application.zip">Livro compactado (.zip)</a></li>
+        <!--Instalar o arquivo no formato .zip-->
+        
+        <!--Tags: 
+        download com argumento o nome do arquivo a ser instalado;
+
+        type com argumento o codigo do formato a ser informado (application.pdf; application.zip...) 
+        (iana.org/assignments/media-types/media-types.xhtml) ;
+    -->
+
+    </ul>
+</body>
+</html>

@@ -7,19 +7,28 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            
+            /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: no-repeat;
             background-position: center center;
-            background-size: cover;
+            background-repeat: repeat-y;
+            background-size: cover; 
+            background-attachment:fixed; */
+
             /*  Cover - cobrir a tela inteira podendo ter a imagem cortada;
                 Contain - faz com que a imagem seja 100% exibida
-                % -> pode ocasionar distorcimento da imagem
+                % -> pode causar o distorcimento da imagem
             */
+            /* Shorthand background:
+             color > image > position > repeat > [size] > attachment */
+
+             background: black url(imagens/wallpaper002.jpg) center center / cover no-repeat fixed ;
+                /* NAO ESQUECER DO "/" ANTES DO BACKGROUND-SIZE */
+
         }
         main{
             background-color: rgba(245, 222, 179, 0.678);
-            width: 400px;
+            max-width: 500px;
             padding: 10px;
             margin: auto;
             border-radius: 15px;
@@ -30,6 +39,9 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati totam maxime aliquid reiciendis vero, repellat perferendis quia sequi, corporis dolor corrupti doloremque numquam cum illum repellendus error vel? Iste? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minima nulla ea consequuntur aut aspernatur voluptas mollitia alias, quas porro aliquam ipsa! At et impedit, tempore sapiente quasi asperiores perspiciatis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quae sed, necessitatibus modi velit veniam accusantium consequatur ad quidem nesciunt, praesentium architecto earum, hic eaque id rerum assumenda recusandae iure!</p>
-    </main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati totam maxime aliquid reiciendis vero, repellat perferendis quia sequi, corporis dolor corrupti doloremque numquam cum illum repellendus error vel? Iste? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minima nulla ea consequuntur aut aspernatur voluptas mollitia alias, quas porro aliquam ipsa! At et impedit, tempore sapiente quasi asperiores perspiciatis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quae sed, necessitatibus modi velit veniam accusantium consequatur ad quidem nesciunt, praesentium architecto earum, hic eaque id rerum assumenda recusandae iure!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati totam maxime aliquid reiciendis vero, repellat perferendis quia sequi, corporis dolor corrupti doloremque numquam cum illum repellendus error vel? Iste? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minima nulla ea consequuntur aut aspernatur voluptas mollitia alias, quas porro aliquam ipsa! At et impedit, tempore sapiente quasi asperiores perspiciatis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quae sed, necessitatibus modi velit veniam accusantium consequatur ad quidem nesciunt, praesentium architecto earum, hic eaque id rerum assumenda recusandae iure!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati totam maxime aliquid reiciendis vero, repellat perferendis quia sequi, corporis dolor corrupti doloremque numquam cum illum repellendus error vel? Iste? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minima nulla ea consequuntur aut aspernatur voluptas mollitia alias, quas porro aliquam ipsa! At et impedit, tempore sapiente quasi asperiores perspiciatis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quae sed, necessitatibus modi velit veniam accusantium consequatur ad quidem nesciunt, praesentium architecto earum, hic eaque id rerum assumenda recusandae iure!</p>
+        </main>
 </body>
 </html>

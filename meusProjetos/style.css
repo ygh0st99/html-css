@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+
+body{
+    background-image: linear-gradient(white
+    , rgba(58, 53, 53, 0.74));
+    font-family: "Parkinsans", sans-serif;
+}
+
+#background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background-image: url(Esporte_Clube_Vitória_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.4; /* Ajusta a opacidade aqui */
+    z-index: -1; /* Posiciona a imagem atrás do conteúdo */
+    padding-top: 80px;
+}
+
+/* img{
+     border-style: dotted; 
+} */
+
+header>img{
+    float: left;
+    /* max-width: 160px;
+    text-align: left; */
+}
+header>h1{
+    text-align: center;
+    /* border-style: dashed; */
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding-right: 200px;
+    
+}
+
+
+header>h4{
+    text-align: center;
+     border-style: groove; 
+     border-top: 1px;
+     border-left: 0px;
+     border-right: 0px;
+     border-width: 5px;
+     padding-bottom: 50px;
+     font-size: 25px;
+     margin-bottom: 10px;
+     padding-right: 200px;
+}
+
+.body{
+    padding-right: 0px;
+    padding-top: 20px;
+    /* font-size: 17px; */
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#bebidas{
+    border-style: groove;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 0px;
+    
+}
+
+footer>img{
+    max-width: 100px;
+    /* justify-content: flex-end; */
+}
+
+footer {
+    text-align: right; /* Alinha o conteúdo do rodapé à direita */
+}
+
+footer img {
+    vertical-align: bottom; /* Alinha a imagem na parte inferior */
+}

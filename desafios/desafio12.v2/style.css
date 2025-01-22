@@ -31,7 +31,7 @@ header p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header p a{
+header>p>a{
     color: white;
     text-decoration: none;
 }
@@ -45,10 +45,10 @@ section{
     font-size: 2.6vw;
     padding: 25px;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.459);
+    line-height: 3em;
 }
 section.normal{
     min-height: 400px;
-    line-height: 3em;
 }
 
 section.img>div{
@@ -58,9 +58,6 @@ section.img>div{
     padding: 7px;
 }
 
-section.img p{
-    line-height: 3em;
-}
 section.img#img01{
     background-image: url(imagens/background001.jpg);
     background-position: center center;
@@ -70,4 +67,22 @@ section.img#img02{
     background-image: url(imagens/background002.jpg);
     background-position: center center;
     background-attachment: fixed;
+}
+
+footer{
+    padding: 20px;
+    background-color: rgba(49, 49, 49, 0.61);
+    color: white;
+    font-size: 2.1vw;
+    border-radius: 10px;
+}
+
+footer>p>a{
+    color: white;
+    text-decoration: none;
+}
+
+footer>p>a:hover{
+    text-decoration:underline;
+    color: rgba(72, 21, 167, 0.575);
 }
